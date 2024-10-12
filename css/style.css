@@ -128,3 +128,18 @@ footer small {
     display: block;
     
 }
+
+/* Parte de responsividade */
+
+@media (max-width: 425px) {
+    section nav,
+    section article,
+    footer {
+        width: 100%;
+        height: auto;
+    }
+    footer p { 
+        width: auto; 
+        font-size: 30%;
+    }
+}
